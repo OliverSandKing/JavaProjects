@@ -2,7 +2,14 @@
 package geometricalshapes;
 
 public class Triangle {
-    
+    /*
+    public double area(){
+    double p = (sideA + sideB + sideC )/ 2;
+    double toSquare = p * (p - sideA) * (p - sideB) * (p - sideC);
+    double area = Math.sqrt(toSquare);
+       
+    return area;
+}*/
     private double base;
     private double height;
     private double sideA;
